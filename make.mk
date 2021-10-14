@@ -1,0 +1,2 @@
+include $(PRACTICAL_TDD_MAKE_DIRECTORY)/tools.mk
+include $(PRACTICAL_TDD_MAKE_DIRECTORY)/targets.mk
