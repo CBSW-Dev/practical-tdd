@@ -47,3 +47,30 @@ The inverse algorithm is left as a Kata for the user.
 ## Task
 
 Take a 32 bit System instruction class encoding, and extract op0, op1, CRn, CRm, and op2.
+
+## Getting started
+
+### 1) Create a new file in test/unit called system_instruction_decoding.unit.cpp with the initial contents
+
+```c++
+#include "test.hpp"
+
+#include "system_instruction_encoding.hpp"
+
+fixture("System Instruction Decoding")
+{
+
+}
+```
+
+### 2) Update test/make.mk to read as follows
+
+```makefile
+PRACTICAL_TDD_TEST_FILES += $(PRACTICAL_TDD_TEST_DIRECTORY)/unit/system_instruction_encoding.unit.cpp \
+                            $(PRACTICAL_TDD_TEST_DIRECTORY)/unit/system_instruction_decoding.unit.cpp
+
+```
+
+### 3) Begin writing tests!
+
+See the CBUnit examples directory for examples of how to use the unit testing library
