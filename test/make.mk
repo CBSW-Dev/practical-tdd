@@ -1,0 +1,1 @@
+PRACTICAL_TDD_TEST_FILES += $(PRACTICAL_TDD_TEST_DIRECTORY)/unit/system_instruction_encoding.unit.cpp
