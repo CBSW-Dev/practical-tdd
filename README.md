@@ -9,7 +9,7 @@ For the purpose of this session, a strict TDD approach will be observed. Try to 
 In order to run the project cbunit2.0 must be installed. This can be done by checking out the code from CBSW's github repository
 
 ```
-git checkout https://github.com/CBSW-Dev/cbunit.git/
+git clone https://github.com/CBSW-Dev/cbunit.git/
 ```
 
 In order for the project to compile, the environmental variable CBUNIT_DIRECTORY must point to the cbunit directory
